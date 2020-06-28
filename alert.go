@@ -8,8 +8,13 @@ import (
 )
 
 // Success prints a success message and exit status 0
-func Success(message string) {
+func Success(message string, details ...string) {
 	color.Success.Println("√", message)
+	if len(details) > 0 {
+		for _, detail := range details {
+			color.Primary.Println("-", detail)
+		}
+	}
 	os.Exit(0)
 }
 
