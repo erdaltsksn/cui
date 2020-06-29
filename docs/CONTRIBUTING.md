@@ -63,7 +63,8 @@ The following is the list of supported scopes:
 - **(devops)** e.g. git, travis, pre-commit, netlify, heroku, npm, gulp and etc.
 - **(readme)** e.g. readme, changelog, code of conduct, license and etc.
 - **(example)** Examples
-- **(alerts)** Alerts
+- **(alert)** Alerts
+- **(command)** Useful commands
 
 ### Revert and Merge
 

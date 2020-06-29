@@ -75,6 +75,31 @@ if err != nil {
 }
 ```
 
+### Adding Commands
+
+**.goreleaser.yml**
+
+```yaml
+builds:
+- main:
+  ldflags: -s -w -X github.com/erdaltsksn/cui.appVersion={{.Tag}}
+```
+
+***cmd/root.go**
+
+```go
+package cmd
+
+import (
+	"github.com/spf13/cobra"
+	"github.com/erdaltsksn/cui"
+)
+
+func init() {
+	rootCmd.AddCommand(cui.VersionCmd)
+}
+```
+
 ## Contributing
 
 If you want to contribute to this project and make it better, your help is very
