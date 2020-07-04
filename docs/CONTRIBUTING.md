@@ -61,7 +61,7 @@ The following is the list of supported scopes:
 
 - **(*)** Multiple scopes or Unknown.
 - **(devops)** e.g. git, travis, pre-commit, netlify, heroku, npm, gulp and etc.
-- **(readme)** e.g. readme, changelog, code of conduct, license and etc.
+- **(readme)** e.g. readme, contributing, changelog, license and etc.
 - **(example)** Examples / runnable projects.
 
 **NOTE:** Every section/file (alert,command and etc.) can be used as scope as
