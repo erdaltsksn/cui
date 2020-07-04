@@ -12,4 +12,4 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-    labels: [ ] # No Label
+    labels: [ ]

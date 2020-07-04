@@ -77,7 +77,7 @@ if err != nil {
 
 ### Adding Commands
 
-**.goreleaser.yml**
+**.goreleaser.yml:**
 
 ```yaml
 builds:
@@ -85,7 +85,7 @@ builds:
   ldflags: -s -w -X github.com/erdaltsksn/cui.appVersion={{.Tag}}
 ```
 
-***cmd/root.go**
+***cmd/root.go:**
 
 ```go
 package cmd
