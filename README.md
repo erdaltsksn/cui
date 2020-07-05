@@ -9,6 +9,7 @@ CUI gives us a set of useful tools while developing cli apps.
 ## Features
 
 - Alerts
+- Pre-made Cobra commands
 
 ## Getting Started
 
