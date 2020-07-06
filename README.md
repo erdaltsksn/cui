@@ -50,7 +50,7 @@ Check out [examples](examples/simple) directory for more.
 go get github.com/erdaltsksn/cui
 ```
 
-## Updating
+## Updating / Upgrading
 
 ```sh
 go get -u github.com/erdaltsksn/cui
@@ -76,7 +76,7 @@ if err != nil {
 }
 ```
 
-### Adding Commands
+### Adding Version Command
 
 **.goreleaser.yml:**
 

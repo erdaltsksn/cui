@@ -26,6 +26,7 @@ request!
 ### Prerequisites
 
 - [Git](https://git-scm.com)
+- [Golang](https://golang.org)
 
 ## Commit Message Guidelines
 
