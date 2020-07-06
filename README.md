@@ -58,6 +58,8 @@ go get -u github.com/erdaltsksn/cui
 
 ## Usage
 
+### Alerts
+
 ```go
 // Success
 cui.Success("This is a success message")
@@ -76,7 +78,7 @@ if err != nil {
 }
 ```
 
-### Adding Version Command
+### Version Command
 
 **.goreleaser.yml:**
 

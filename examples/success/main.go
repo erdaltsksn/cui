@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	cui.Success("Successful message")
+	cui.Success("Successful message", "This is the details")
 }
