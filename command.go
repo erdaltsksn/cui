@@ -6,7 +6,7 @@ import (
 
 var appVersion = "unknown"
 
-// VersionCmd represents the version command
+// VersionCmd represents the version command.
 var VersionCmd = &cobra.Command{
 	Use:   "version",
 	Short: "Prints the app's version",

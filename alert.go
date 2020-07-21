@@ -7,7 +7,7 @@ import (
 	"github.com/gookit/color"
 )
 
-// Success prints a success message and exit status 0
+// Success prints a success message and exit status 0.
 func Success(message string, details ...string) {
 	color.Success.Println("√", message)
 	for _, detail := range details {
@@ -16,7 +16,7 @@ func Success(message string, details ...string) {
 	os.Exit(0)
 }
 
-// Error prints a success message and exit status 1
+// Error prints a success message and exit status 1.
 func Error(message string, err ...error) {
 	color.Danger.Println("X", message)
 	for _, e := range err {
@@ -25,7 +25,7 @@ func Error(message string, err ...error) {
 	os.Exit(1)
 }
 
-// Warning prints a warning message and exit status 1
+// Warning prints a warning message and exit status 1.
 func Warning(message string, details ...string) {
 	color.Warn.Println("!", message)
 	for _, detail := range details {
@@ -34,7 +34,7 @@ func Warning(message string, details ...string) {
 	os.Exit(1)
 }
 
-// Info prints an information message without exit
+// Info prints an information message without exit.
 func Info(message string) {
 	color.Primary.Println("*", message)
 }
