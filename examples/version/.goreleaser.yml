@@ -1,0 +1,3 @@
+builds:
+- main:
+  ldflags: -s -w -X github.com/erdaltsksn/cui.appVersion={{.Tag}}
