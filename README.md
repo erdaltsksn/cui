@@ -1,6 +1,6 @@
 # CUI (Commandline User Interface)
 
-[![GoDoc](https://godoc.org/github.com/erdaltsksn/cui?status.svg)](https://godoc.org/github.com/erdaltsksn/cui)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/erdaltsksn/cui)](https://pkg.go.dev/github.com/erdaltsksn/cui)
 ![Go](https://github.com/erdaltsksn/cui/workflows/Go/badge.svg)
 [![Go Report Card](https://goreportcard.com/badge/github.com/erdaltsksn/cui)](https://goreportcard.com/report/github.com/erdaltsksn/cui)
 
