@@ -11,6 +11,10 @@ CUI gives us a set of useful tools while developing cli apps.
 - Alerts
 - Pre-made Cobra commands
 
+## Requirements
+
+- [Golang](https://golang.org)
+
 ## Getting Started
 
 ```sh
