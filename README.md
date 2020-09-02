@@ -46,7 +46,7 @@ go run main.go
 
 ![output](/assets/output.png)
 
-Check out [examples](examples/simple) directory for more.
+Check out [examples](examples) directory for more.
 
 ## Installation
 
