@@ -1,0 +1,8 @@
+before:
+  hooks:
+    # You may remove this if you don't use go modules.
+    - go mod download
+builds:
+-
+  # Skip build. This is for a library project which would need only changelog.
+  skip: true
