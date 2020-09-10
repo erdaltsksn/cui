@@ -27,14 +27,14 @@ test: ## Run all test
 	go test -v ./...
 
 .PHONY: docs
-docs: ## Start local docs server
+docs: ## Start local godoc server
 	@echo "See Documentation:"
 	@echo "\thttp://localhost:6060/pkg/github.com/erdaltsksn/cui"
 	@echo "\n"
 	@godoc -http=:6060
 
 .PHONY: build
-build: ## Build gh-label app
+build: ## Build the app
 	go build -v ./...
 
 .PHONY: clean
