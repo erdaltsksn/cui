@@ -66,6 +66,15 @@ The following is the list of supported scopes:
 - **(alert)**
 - **(command)**
 
+#### Old / Deprecated Scopes
+
+Some of the scopes have become old/deprecated. The following is the list and
+their newer equivalents.
+
+| OLD                                  | NEW                                   |
+|--------------------------------------|---------------------------------------|
+| (example)                            | **(alert)**, **(command)**            |
+
 ### Revert and Merge
 
 Use default GIT templates for `revert` and `merge`.
