@@ -16,14 +16,14 @@ fmt: ## Run all formatings
 
 .PHONY: run
 run: ## Run all examples
-	-go run ./examples/info/main.go
+	go run ./examples/info/main.go
 	-go run ./examples/warning/main.go
 	-go run ./examples/success/main.go
 	-go run ./examples/error/main.go
-	-go run -ldflags="-s -w -X github.com/erdaltsksn/cui.appVersion=v1.0.0" ./examples/version/main.go version
+	go run -ldflags="-s -w -X github.com/erdaltsksn/cui.appVersion=v1.0.0" ./examples/version/main.go version
 
 .PHONY: test
-test: ## Run all test
+test: ## Run all tests
 	go test -v ./...
 
 .PHONY: docs
