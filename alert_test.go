@@ -3,7 +3,13 @@ package cui
 import (
 	"errors"
 	"testing"
+
+	"github.com/gookit/color"
 )
+
+func init() {
+	color.Disable()
+}
 
 func Test_alertSuccess(t *testing.T) {
 	type args struct {
