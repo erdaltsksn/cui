@@ -32,8 +32,8 @@ coverage: ## Show test coverage
 	go tool cover -func=coverage.out
 	rm coverage.out
 
-.PHONY: docs
-docs: ## Start local godoc server
+.PHONY: godoc
+godoc: ## Start local godoc server
 	@echo "See Documentation:"
 	@echo "\thttp://localhost:6060/pkg/github.com/erdaltsksn/cui"
 	@echo "\n"
