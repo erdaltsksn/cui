@@ -13,28 +13,34 @@ fmt: ## Run all formatings
 .PHONY: run
 run: ## Run all examples
 	go run ./examples/info/main.go
+	@echo ""
 	-go run ./examples/warning/main.go
+	@echo ""
 	-go run ./examples/success/main.go
+	@echo ""
 	-go run ./examples/error/main.go
+	@echo ""
 	go run -ldflags="-s -w -X github.com/erdaltsksn/cui.appVersion=v1.0.0" ./examples/version/main.go version
+	@echo ""
 
 .PHONY: test
 test: ## Run all tests
-	go test -v ./...
+	go test ./...
 
 .PHONY: coverage
 coverage: ## Show test coverage
 	@go test -coverprofile=coverage.out ./... > /dev/null
 	go tool cover -func=coverage.out
-	rm coverage.out
+	@rm coverage.out
 
 .PHONY: godoc
 godoc: ## Start local godoc server
 	@echo "See Documentation:"
-	@echo "\thttp://localhost:6060/pkg/github.com/erdaltsksn/cui"
-	@echo "\n"
+	@echo "    http://localhost:6060/pkg/github.com/erdaltsksn/cui"
+	@echo ""
 	@godoc -http=:6060
 
 .PHONY: clean
 clean: ## Clean all generated files
 	rm -rf ./vendor/
+	rm -rf go.sum
