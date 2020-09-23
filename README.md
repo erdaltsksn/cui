@@ -42,11 +42,11 @@ func main() {
 go run main.go
 ```
 
+Check out [examples](examples) directory for more.
+
 **Output:**
 
 ![output](/assets/output.png)
-
-Check out [examples](examples) directory for more.
 
 ## Installation
 
