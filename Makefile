@@ -43,4 +43,4 @@ godoc: ## Start local godoc server
 .PHONY: clean
 clean: ## Clean all generated files
 	rm -rf ./vendor/
-	rm -rf go.sum
+	rm -rf ./go.sum
