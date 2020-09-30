@@ -1,4 +1,4 @@
-name: pkg.go.dev
+name: Go (pkg.go.dev)
 
 on:
   push:
