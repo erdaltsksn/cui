@@ -3,6 +3,7 @@
 [![PkgGoDev](https://pkg.go.dev/badge/github.com/erdaltsksn/cui)](https://pkg.go.dev/github.com/erdaltsksn/cui)
 ![Go](https://github.com/erdaltsksn/cui/workflows/Go/badge.svg)
 [![Go Report Card](https://goreportcard.com/badge/github.com/erdaltsksn/cui)](https://goreportcard.com/report/github.com/erdaltsksn/cui)
+![CodeQL](https://github.com/erdaltsksn/cui/workflows/CodeQL/badge.svg)
 
 CUI gives us a set of useful tools while developing cli apps.
 
