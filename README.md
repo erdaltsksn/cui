@@ -108,6 +108,13 @@ func init() {
 }
 ```
 
+## Getting Help
+
+```sh
+# Show available `make` commands.
+make help
+```
+
 ## Contributing
 
 If you want to contribute to this project and make it better, your help is very
