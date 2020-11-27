@@ -14,7 +14,7 @@ CUI gives us a set of useful tools while developing cli apps.
 
 ## Requirements
 
-- [Golang](https://golang.org)
+- [Go](https://golang.org)
 
 ## Getting Started
 
