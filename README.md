@@ -43,8 +43,6 @@ func main() {
 go run main.go
 ```
 
-Check out [examples](examples) directory for more.
-
 **Output:**
 
 ![output](/assets/output.png)
@@ -107,6 +105,8 @@ func init() {
 	rootCmd.AddCommand(cui.VersionCmd)
 }
 ```
+
+Check out [examples](examples) directory for more.
 
 ## Contributing
 
