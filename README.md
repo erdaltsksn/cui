@@ -1,7 +1,7 @@
 # CUI (Commandline User Interface)
 
 [![PkgGoDev](https://pkg.go.dev/badge/github.com/erdaltsksn/cui)](https://pkg.go.dev/github.com/erdaltsksn/cui)
-![Go](https://github.com/erdaltsksn/cui/workflows/Go%20(build)/badge.svg)
+![Go (build)](https://github.com/erdaltsksn/cui/workflows/Go%20(build)/badge.svg)
 [![Go Report Card](https://goreportcard.com/badge/github.com/erdaltsksn/cui)](https://goreportcard.com/report/github.com/erdaltsksn/cui)
 ![CodeQL](https://github.com/erdaltsksn/cui/workflows/CodeQL/badge.svg)
 
@@ -43,7 +43,7 @@ func main() {
 go run main.go
 ```
 
-**Output:**
+**Example Output:**
 
 ![output](/assets/output.png)
 
