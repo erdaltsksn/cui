@@ -33,13 +33,6 @@ coverage: ## Show test coverage
 	go tool cover -func=coverage.out
 	@rm coverage.out
 
-.PHONY: godoc
-godoc: ## Start local godoc server
-	@echo "See Documentation:"
-	@echo "    http://localhost:6060/pkg/github.com/erdaltsksn/cui"
-	@echo ""
-	@godoc -http=:6060
-
 .PHONY: clean
 clean: ## Clean all generated files
 	rm -rf ./vendor/
